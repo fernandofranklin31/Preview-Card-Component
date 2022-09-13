@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    height: 100vh;
+    
+}
+
+.content {
+    display: flex;  
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+      
+}
+
+.product-photo {
+    height: 500px;
+}
+
+.product-photo img {
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;   
+    
+}
+
+.container {
+    padding: 20px;
+}
+
+.product-description {
+    padding: 12px;
+}
+
+.product-description span {
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-description h1 {
+    font-family: 'Fraunces', serif;
+    margin: 10px 0px;
+}
+
+.product-description p {
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.product-value {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+
+}
+
+.product-value h2 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.product-value span {
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button { 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 220px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    margin: 30px 12px;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    
+}
+
+button img {
+    margin: 0 10px;    
+}
+
+button:hover {
+    background-color:hsl(158, 36%, 20%); 
+    cursor:pointer;
+}
